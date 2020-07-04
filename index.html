@@ -13,6 +13,8 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -27,83 +29,59 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Our Services</a></li>
-<!--                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li> -->
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#order">Place order</a></li>
-<!--                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About Us</a></li> -->
-<!--                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Our Team</a></li> -->
+                    <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
+    <div class="dropdown-menu">
+    <a class="dropdown-item" href="#about">About Us</a>
+    <a class="dropdown-item" href="#provide">We Provide</a>
+      <a class="dropdown-item" href="#whychooseus">Why Choose Us</a>
+                        <a class="dropdown-item" href="#whyus">Why Us</a>
+                        <a class="dropdown-item" href="#careers">Careers</a>
+                        <a class="dropdown-item" href="#crs">Corporate Responsibility</a>
+    </div>
+  </li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Services</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#goal">Goal</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#enquiry">Ask Us</a></li>
+                        
+                         
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#client">Our Clients</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a></li>
+<!--                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#whychooseus">Why Choose Us</a></li> -->
+                        
                     </ul>
                 </div>
             </div>
         </nav>
+        <header>
+  <div class="overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+  </video>
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+<!--         <h1 class="display-3">Welcome to</h1> -->
+        <p class="lead mb-0">Welcome to <br><br><h2>Rigel Sparkling Facility Management <br>& <br>Support Services</h2> </p>
+      </div>
+    </div>
+  </div>
+</header>
         <!-- Masthead-->
-        <header class="masthead">
+       <!--  <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">Welcome to</div>
-                <div class="masthead-heading text-uppercase">Rigel Sparkling Facility Management & Support Services </div>
+                <br><br><div class="masthead-subheading">Welcome to</div><br>
+                <div class="masthead-heading"><h1>Rigel Sparkling Facility Management <br>& <br>Support Services </h1></div>
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Wanna Explore</a>
             </div>
-        </header>
-        <!-- Services-->
-        <section class="page-section" id="services">
+        </header> -->
+       
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Our Services</h2>
-<!--                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Housekeeping Services</h4>
-                        <p class="text-muted">We offer our clients a highly professional,
- cost-effective, responsive, quality and sustainable housekeeping services. 
-We strive to continuously innovate and keep 
-ourselves updated with industry practices,
-there-by reducing cost and adding continuous value 
-to the core business of our clients. 
-We are accountable and responsible for the quality 
-of work offered  by our professionally trained team of experts.
-</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Pantry Services</h4>
-                        <p class="text-muted">Our familiarity with the process and corporate rules enable us
-to provide excellent pantry services.
-Pantry Service provides a satisfaction to the customer who 
-always looks for trained and matured set of staff with required 
-attitude and skills for unparallel satisfaction. We groom our 
-pantry staff on personality, attitude, skills, hospitality,
-presence of mind and professional approach to deliver the best. 
-We provide staff that is trained on services such as High Tea, 
-Conference/ Board room Tea, Snacks arrangement & Lunch 
-arrangement etc.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Pest Control Services</h4>
-                        <p class="text-muted">Rigel Sparkling Facility Management & Support Services provides you all types of pest control services like chemical oil base, water base, herbal (Organic) and gel for your offices, hotels, residence etc. Our services include General Infestation for Crawling Insects, Termite (White Ant) Control, Rat / Rodent Control, Pre - Construction Anti -Termite (White Ant) Treatment, Post Construction Anti-Termite (White Ant) Treatment, Garden Pest Treatment, Mosquito Control, Bed Bugs Treatment, Weed, Carpet Bugs and Beetle Treatment, Honey Comb Treatment etc. 
-</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Portfolio Grid-->
-        <!-- <section class="page-section bg-light" id="portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Ready for awesome services,please do check each service for further details.</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -112,11 +90,10 @@ arrangement etc.</p>
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
+                                <img class="img-fluid" src="assets/img/services/manpower.jpg" alt="" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Threads</div>
-                                <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                                <div class="portfolio-caption-heading">Contract Manpower Services</div>
                             </div>
                         </div>
                     </div>
@@ -126,11 +103,10 @@ arrangement etc.</p>
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
+                                <img class="img-fluid" src="assets/img/services/houseKeeping.jpg" alt="" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Explore</div>
-                                <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                                <div class="portfolio-caption-heading">Housekeeping Services</div>
                             </div>
                         </div>
                     </div>
@@ -140,11 +116,10 @@ arrangement etc.</p>
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
+                                <img class="img-fluid" src="assets/img/services/security.jpg" alt="" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Finish</div>
-                                <div class="portfolio-caption-subheading text-muted">Identity</div>
+                                <div class="portfolio-caption-heading">Security Services</div>
                             </div>
                         </div>
                     </div>
@@ -154,11 +129,10 @@ arrangement etc.</p>
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="" />
+                                <img class="img-fluid" src="assets/img/services/vendor.jpg" alt="" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Lines</div>
-                                <div class="portfolio-caption-subheading text-muted">Branding</div>
+                                <div class="portfolio-caption-heading">Vendor Management</div>
                             </div>
                         </div>
                     </div>
@@ -168,11 +142,10 @@ arrangement etc.</p>
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/05-thumbnail.jpg" alt="" />
+                                <img class="img-fluid" src="assets/img/services/pantry_01.jpg" alt="" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Southwest</div>
-                                <div class="portfolio-caption-subheading text-muted">Website Design</div>
+                                <div class="portfolio-caption-heading">Pantry Services</div>
                             </div>
                         </div>
                     </div>
@@ -182,23 +155,108 @@ arrangement etc.</p>
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.jpg" alt="" />
+                                <img class="img-fluid" src="assets/img/services/pest_01.jpg" alt="" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Window</div>
-                                <div class="portfolio-caption-subheading text-muted">Photography</div>
+                                <div class="portfolio-caption-heading">Pest Control Services</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/services/horti_01.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Horticulture & Landscaping</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/services/guest.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Guest House Management Services</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/services/help.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Help Desk services</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section> -->
-        <!-- Place order-->
-        <section class="page-section" id="order">
+        </section>
+        
+         <!-- goal-->
+        <section class="page-section" id="goal">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Place order</h2>
-                    <h3 class="section-subheading text-muted">Please us tell us your requirements</h3>
+                    <h2 class="section-heading text-uppercase">Our Goal</h2>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-bullseye fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Mission</h4>
+                        <p class="text-muted">To make everyday life better for our customers and employees through sustainable, innovative and cost-effective methods
+</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Vision</h4>
+                        <p class="text-muted">To create  “Hygienic, Safe”
+	&  “Eco-friendly”  work environment
+</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-user-friends fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Values</h4>
+                        <p class="text-muted">
+	Relationship<br>  
+	Sustainability<br>
+	 Transparency<br>
+	 Operational Excellence<br>
+	 Safety First 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Ask us enquiry-->
+        <section class="page-section" id="enquiry">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Ask Us</h2>
+                    <h3 class="section-subheading text-muted">Please ask your query</h3>
                 </div>
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
                     <div class="row align-items-stretch mb-5">
@@ -218,52 +276,133 @@ arrangement etc.</p>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
-                                <textarea class="form-control" id="message" placeholder="Your requirements *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                <textarea class="form-control" id="message" placeholder="Your query/question *" required="required" data-validation-required-message="Please enter a query you wanna ask."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                     </div>
                     <div class="text-center">
                         <div id="success"></div>
-                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Place Order</button>
+                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Query</button>
                     </div>
                 </form>
             </div>
         </section>
         <!-- About-->
-        <!-- <section class="page-section" id="about">
+        <section class="page-section" id="about">
+        
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">About Us</h2>
+                    <h3 class="section-subheading text-muted">Rigel Sparkling Facility Management & Support Services is an assembly of talented management professionals, who have years of experience in maintaining large modern day facilities. 
+                    <br>Our expertise,  state of the art equipment and skilled staff help us deliver sustainable, timely & cost effective solutions. 
+                    <br>We understand the specific requirements of our clients and help them do their core job. We aim to make everyday life  better for our customers by working “Together”.</h3>
                 </div>
                 <ul class="timeline">
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="" /></div>
+                    <li id="provide">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/provide.jpg" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
+                                <h4>We provide</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
+                            <div class="timeline-body"><p class="text-muted">
+                            Soft Services – Housekeeping, Façade Cleaning, Deep Cleaning<br>
+FrontOfficeManagement<br>
+	TechnicalServices - Electrical, Plumbing & Carpentry Services<br>
+	Payroll Management<br>
+	Guest HouseManagement<br>
+	PantryServices<br>
+	Contractstaffing<br>
+	Pest Control Management<br>
+	Security Services<br>
+	Graphic Designing <br>
+	Office Plantation  
+                                 </div>
                     </li>
+                    
+                    <li class="timeline-inverted" id="whychooseus">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/choose.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Why Choose us?</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">
+                            We work in partnership with customers to help manage their evolving workplaces.<br>
+
+We're excited about the future and passionate about helping you achieve your strategic goals.<br>
+
+We bring our experience to work collaboratively with customers to deliver the support they need for the future. We deliver a seamlessly integrated service and bring fresh thinking and new ways to support our customers everyday.
+
+Regardless of the vagaries in your business environment, our integrated approach to facility management help you achieve maximum productivity and efficiency.
+<br>
+
+We focus on building relationships with you to ensure you've got the right support to be ready for the future. What's more, we understand that being ready for the future isn't about knowing exactly what is going to happen, it's about having a team that can move quickly enough when something changes.
+<br>
+Find out more about some of the sectors where we are working with customers to help them achieve their goals.
+<br>
+We also have nation wide reach, delivering integrated facilities management to a variety of multinational businesses across a number of regions in India.
+<br>
+We always put our customers first at ImRigel . It's what's helped us get to where we are today. It's also why we can help you, whatever sector you work in. Making sure you get the services you need is top of our list of priorities, so it doesn't matter to us if you're in the education or leisure sector or if manufacturing or utilities, Airport, Retail or a Mall is your thing.
+                            
+                            
+                            </div>
+                    </li>
+                    <li id="whyus">
+                        <div class="timeline-image">
+                        <img class="rounded-circle img-fluid" src="assets/img/about/why.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Why  US</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">
+                           Quality Resources<br>
+Trained and Skilled Personnel<br>
+	Strong HR Practices and S.L.A.<br>
+	Efficient Training & SME support<br>
+	Quality Service Delivery<br>
+	Periodic Health & Safety Check up<br>
+	Staff Welfare
+                            
+                            </div>
+                    </li id="careers">
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="" /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/career.jpg" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
+                                <h4>Careers</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
+                            <div class="timeline-body"><p class="text-muted">
+                            The people of Rigel  are known for quantity and quality both coupled with passion and enthusiasm they bring to the business of cleaning solutions. At every level, our team can be identified by two fundamental tenets: treat people right and do what's right. Despite the complexity of our industry, our team believes in the core value they provide in the marketplace – to make it possible for hundreds of millions of people to navigate their lives with confidence and convenience every day.<br>
+
+Rigel team members are a committed lot in the industry, bringing both the drive and ambition required to keep a step ahead in the market. We have yet to find limits to what our people can accomplish. <br>
+
+Our family of companies offers a wide array of careers to leverage and enhance a team member's skills, advance their future, and help us succeed in delighting our customers around the country. <br>
+
+Our careers cover a broad spectrum of opportunities. We are ready to help the best and the deserving find the right fit within the Rigel family.
+                            
+                            </div>
                     </li>
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="" /></div>
+                    <li id="crs">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/csr.jpg" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>December 2012</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
+                                <h4>Corporate Responsibility</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">
+                            Rigel has become a trusted voice in the cleaning and housekeeping industry. We understand that our success is determined by our clients' success. This true spirit of partnership infuses everything we do inside and outside our workplace.<br>
+Workplace<br>
+Environment<br>Vendor Management<br>
+Supplier Diversity<br>
+Community
+                                                        
+                             </div>
+                    </li>
+                    <!-- <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>July 2014</h4>
+                                <h4 class="subheading">Phase Two Expansion</h4>
                             </div>
                             <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
                         </div>
@@ -277,7 +416,7 @@ arrangement etc.</p>
                             </div>
                             <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
                         </div>
-                    </li>
+                    </li> -->
                     <li class="timeline-inverted">
                         <div class="timeline-image">
                             <h4>
@@ -285,24 +424,23 @@ arrangement etc.</p>
                                 <br />
                                 Of Our
                                 <br />
-                                Story!
+                                Journey!
                             </h4>
                         </div>
                     </li>
                 </ul>
             </div>
-        </section> -->
-        <!-- Team-->
-       <!--  <section class="page-section bg-light" id="team">
+        </section>
+        <!-- Client-->
+        <section class="page-section bg-light" id="client">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Our Esteemed Clients</h2>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="" />
+                        <div class="client-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/client/1.jpg" alt="" />
                             <h4>Kay Garland</h4>
                             <p class="text-muted">Lead Designer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
@@ -311,8 +449,8 @@ arrangement etc.</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="" />
+                        <div class="client-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/client/2.jpg" alt="" />
                             <h4>Larry Parker</h4>
                             <p class="text-muted">Lead Marketer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
@@ -321,8 +459,8 @@ arrangement etc.</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="" />
+                        <div class="client-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/client/3.jpg" alt="" />
                             <h4>Diana Petersen</h4>
                             <p class="text-muted">Lead Developer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
@@ -335,26 +473,33 @@ arrangement etc.</p>
                     <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
                 </div>
             </div>
-        </section>
-        Clients
+        </section> -->
         <div class="py-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/envato.jpg" alt="" /></a>
+                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/01.jpg" alt="" /></a>
                     </div>
                     <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/designmodo.jpg" alt="" /></a>
+                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/02.jpg" alt="" /></a>
                     </div>
                     <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/themeforest.jpg" alt="" /></a>
+                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/03.jpg" alt="" /></a>
                     </div>
                     <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/creative-market.jpg" alt="" /></a>
+                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/04.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/05.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/06.jpg" alt="" /></a>
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
+        </div>
+        </section>
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
@@ -370,10 +515,10 @@ arrangement etc.</p>
 14/1101, OC, Ahinsa Khand -1 <br>
 Indirapuram, Ghaziabad, Uttar Pradesh – 201014<br><br></h3>
 
-<h3 class="section-heading">Mail us </h3><h4 class="section-heading"><br>info@rigelsparkling.com<br>
-                  sales@rigelsparkling.com <br><br> </h4>
+<h3 class="section-heading">Mail us </h3><h4 class="section-heading">info@rigelsparkling.com<br>
+                  </h4><br>
 
-<h3 class="section-heading">Call us</h3> <h4 class="section-heading"><br>7428335817<br> 9340506751<br> 8178570166 </h4>
+<h3 class="section-heading">Call us</h3> <h4 class="section-heading">7428335817<br> 9340506751<br> 8178570166 </h4>
                 </div>
                 
             </div>
@@ -406,18 +551,21 @@ Indirapuram, Ghaziabad, Uttar Pradesh – 201014<br><br></h3>
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>Date: January 2020</li>
-                                        <li>Client: Threads</li>
-                                        <li>Category: Illustration</li>
-                                    </ul>
+                                    <h2 class="text-uppercase">Contract Manpower Services</h2>
+<!--                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" /> -->
+                                    <p>
+                                    Driving on the fast lane, yet ensuring you do not hit the dead-end? Turn into a lane where Quality meets Excellence. Proficiency meets Dedication. Commitment meets Pragmatism. Honesty meets Reliability. The one stop solution for all your requirements. Being pioneers in manpower solutions, we specialize in acquiring and presenting the best of talent. The members of our core team consist of experts from the industry with over a decade of experience within the recruitment industry. Geared by a team of professionals adept in all aspects of sourcing, we promise to help you steer in the right direction. Our process has been proven over a decade now. For the last few years, we have grown in placing professionals across multiple industries with varied skills and un skilled for various industry sectors. We believe an effective management of one of the most important assets, namely the Human Resources, is the key to organizational success. We therefore excel in giving the right form to the aspirations and the vision of the candidates to match with that our clients.
+<br>We Listen, Coordinate and Deliver<br>
+Contact us now to see how we can help your industrial service company
+                                    
+                                    </p>
+                                    <br>
+                                    <br>
+                                    For more information about this service, please contact our Head office directly or contact us online Info@rigelsparkling.com
+                                    <br><br>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                        <i class="fas fa-times mr-1"></i>
-                                        Close Project
+                                        <i class="fas fa-check mr-1"></i>
+                                        Ok Got it !
                                     </button>
                                 </div>
                             </div>
@@ -436,18 +584,18 @@ Indirapuram, Ghaziabad, Uttar Pradesh – 201014<br><br></h3>
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>Date: January 2020</li>
-                                        <li>Client: Explore</li>
-                                        <li>Category: Graphic Design</li>
-                                    </ul>
+                                    <h2 class="text-uppercase">Housekeeping Services</h2>
+<!--                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" /> -->
+                                    <p>
+                                    We offer our clients a highly professional, cost-effective, responsive, quality and sustainable housekeeping services. We strive to continuously innovate and keep ourselves updated with industry practices, there-by reducing cost and adding continuous value to the core business of our clients. We are accountable and responsible for the quality of work offered by our professionally trained team of experts.
+                                    </p>
+                                    <br>
+                                    <br>
+                                    For more information about this service, please contact our Head office directly or contact us online Info@rigelsparkling.com
+                                    <br><br>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                        <i class="fas fa-times mr-1"></i>
-                                        Close Project
+                                        <i class="fas fa-check mr-1"></i>
+                                        Ok Got it !
                                     </button>
                                 </div>
                             </div>
@@ -466,19 +614,47 @@ Indirapuram, Ghaziabad, Uttar Pradesh – 201014<br><br></h3>
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>Date: January 2020</li>
-                                        <li>Client: Finish</li>
-                                        <li>Category: Identity</li>
-                                    </ul>
+                                    <h2 class="text-uppercase">Security Services</h2>
+<!--                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" /> -->
+                                    <p>Safeguarding your property and your people is a big responsibility. It requires high-caliber professionals, broad experience and trusted service partners
+
+At Rigel we know that every quality security service is founded on several non-negotiable features:  
+</p>                                    
+<h3>Staffing Terms and Conditions</h3>
+Ensuring that the security officers' Terms and Conditions of Employment are rewarding enough to attract those with the highest character and highest performance levels.
+<br>
+<h3>Vetting</h3>
+Carrying out thorough vetting and training procedures to a high standard to ensure every Impressions security officer is a trusted, reliable professional.
+<br>
+<h3>Supervision</h3>
+Employing supervisors who specifically conduct spot checks to ensure that Rigel security officers are performing their duties efficiently, to update training requirements and to provide an extra physical on-site presence. You can be confident that vigilance is always a priority.
+<br>
+<h3>Security Priorities</h3>
+Ensuring, via Management Liaison Visits, that your security priorities are catered for. During each visit we undertake a consultative process to review, update and lock in Assignment Instructions that are appropriate and effective.
+<br>
+<h3>Quality</h3>
+Committing to a continual and consistent quality of service. This is achieved through continual performance review of each security officer. Rigel will also develop site-specific procedures in conjunction with site management for items such as:
+	Emergency procedures<br> 
+	Fire<br>
+	Chemical spill<br>
+	Major workplace accident <br>
+	Terrorism<br>
+	Bomb warning procedure<br>
+	Major disturbances<br>
+	
+For over several years we’ve been helping businesses keep their people and property safe, making us the one of the largest security provider in the region.
+<br>
+In all sorts of sectors and across hundreds of sites in the country, our industry-accredited officers are bursting with energy and a can-do attitude. Combine that with our electronic security and we make sure nothing is left to chance.
+
+                                    <br>
+                                    <br>
+                                    For more information about this service, please contact our Head office directly or contact us online Info@rigelsparkling.com
+                                    <br><br>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                        <i class="fas fa-times mr-1"></i>
-                                        Close Project
+                                        <i class="fas fa-check mr-1"></i>
+                                        Ok Got it !
                                     </button>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -496,18 +672,21 @@ Indirapuram, Ghaziabad, Uttar Pradesh – 201014<br><br></h3>
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>Date: January 2020</li>
-                                        <li>Client: Lines</li>
-                                        <li>Category: Branding</li>
-                                    </ul>
+                                    <h2 class="text-uppercase">Vendor Management</h2>
+<!--                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" /> -->
+                                    <p>It is just as important to communicate with your suppliers and vendors, as it is to communicate with your customers. Establishing the proper communication channels and information flows between you and your suppliers can lead to increased efficiencies, reduced costs and better customer service. We at Impressions are extremely mindful on this aspect as this relates directly to our services and customer satisfaction levels.
+                                    </p>
+                                     <h3>Features</h3>
+                                     Compliance with vendor service level agreements <br>
+Vendor contract review and negotiations <br>
+Vendor Management<br>
+Report Tracking<br>
+Statutory Compliances<br>
+                                     
+                                    
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                        <i class="fas fa-times mr-1"></i>
-                                        Close Project
+                                        <i class="fas fa-check mr-1"></i>
+                                        Ok Got it !
                                     </button>
                                 </div>
                             </div>
@@ -526,18 +705,19 @@ Indirapuram, Ghaziabad, Uttar Pradesh – 201014<br><br></h3>
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/05-full.jpg" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>Date: January 2020</li>
-                                        <li>Client: Southwest</li>
-                                        <li>Category: Website Design</li>
-                                    </ul>
-                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                        <i class="fas fa-times mr-1"></i>
-                                        Close Project
+                                    <h2 class="text-uppercase">Pantry Services</h2>
+<!--                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/05-full.jpg" alt="" /> -->
+                                    <p>
+Our familiarity with the process and corporate rules enable usto provide excellent pantry services.Pantry Service provides a satisfaction to the customer who always looks for trained and matured set of staff with required attitude and skills for unparallel satisfaction. We groom our pantry staff on personality, attitude, skills, hospitality, presence of mind and professional approach to deliver the best. We provide staff that is trained on services such as High Tea, Conference/ Boardroom Tea, Snacks arrangement &Lunch arrangement etc.
+“Food, if presented well, helps our health.” 
+</p>                                    
+<br>
+                                    <br>
+                                    For more information about this service, please contact our Head office directly or contact us online Info@rigelsparkling.com
+                                    <br><br>
+<button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-check mr-1"></i>
+                                        Ok Got it !
                                     </button>
                                 </div>
                             </div>
@@ -556,18 +736,18 @@ Indirapuram, Ghaziabad, Uttar Pradesh – 201014<br><br></h3>
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>Date: January 2020</li>
-                                        <li>Client: Window</li>
-                                        <li>Category: Photography</li>
-                                    </ul>
+                                    <h2 class="text-uppercase">Pest Control Services</h2>
+<!--                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" /> -->
+                                    <p>
+                                    Rigel Sparkling Facility Management & Support Services provides you all types of pest control services like chemical oil base, water base, herbal (Organic) and gel for your offices, hotels, residence etc. Our services include General Infestation for Crawling Insects, Termite (White Ant) Control, Rat / Rodent Control, Pre - Construction Anti -Termite (White Ant) Treatment, Post Construction Anti-Termite (White Ant) Treatment, Garden Pest Treatment, Mosquito Control, Bed Bugs Treatment, Weed, Carpet Bugs and Beetle Treatment, Honey Comb Treatment etc
+                                    </p>
+                                    <br>
+                                    <br>
+                                    For more information about this service, please contact our Head office directly or contact us online Info@rigelsparkling.com
+                                    <br><br>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                        <i class="fas fa-times mr-1"></i>
-                                        Close Project
+                                        <i class="fas fa-check mr-1"></i>
+                                        Ok Got it !
                                     </button>
                                 </div>
                             </div>
@@ -576,6 +756,113 @@ Indirapuram, Ghaziabad, Uttar Pradesh – 201014<br><br></h3>
                 </div>
             </div>
         </div>
+        <!-- Modal 7-->
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Horticulture & Landscaping</h2>
+<!--                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" /> -->
+                                    <p>
+                                    Rigel Sparkling Facility Management & Support Services provides horticulture services in development, maintenance of landscaping, gardening and indoor/outdoor potted plant arrangements etc. We have a qualified team of Horticulturists and Gardeners, who are well experienced in the field with required equipment and tools. Our staff takes care of all aspects of Horticulture work, especially the environment surroundings and the ambience of your organization assigned to us. 
+                                    </p>
+                                    <br>
+                                    <br>
+                                    For more information about this service, please contact our Head office directly or contact us online Info@rigelsparkling.com
+                                    <br><br>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-check mr-1"></i>
+                                        Ok Got it !
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 8-->
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Guest House Management Services</h2>
+<!--                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" /> -->
+                                    <p>
+                                    Rigel offers state of the art Guest House Management Services at affordable prices. This service is performed by highly schooled and proficient professionals to ensure quality and customers’ satisfaction. The service includes reservation, room management, billing, accounting, and statistics capabilities. Our staff is placed 24 hours a day for daily cleaning, arranging of plates, for errand jobs, thus manages the guest house, making the guest stay comfortable.
+                                    </p> 
+                                    <h3>Features</h3>
+                                    Guest Relations <br>
+Food Services<br>
+Maintenance<br>
+Housekeeping Services<br>
+Laundry Services<br>
+Occupancy Management<br>
+Garden & Lawn Maintenance - Hard & Soft landscaping<br>
+<br>
+                                    <br>
+                                    For more information about this service, please contact our Head office directly or contact us online Info@rigelsparkling.com
+                                    <br><br>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-check mr-1"></i>
+                                        Ok Got it !
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 9-->
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Help Desk services</h2>
+<!--                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" /> -->
+                                    <p>
+                                    One of the crucial business areas these days is the help desk. We understand the criticality of this operation and can provide experienced people to man the desk. Help desk support involves understanding of the user’s problem, diagnosing the reason and rectifying the same.
+                                    </p>
+                                    <h3>Features</h3>
+                                    <ul class="list-inline">
+                                        <li> 
+Handle Phone Calls
+</li>
+                                        <li>Log Complaints</li>
+                                        <li>Records Time</li>
+                                    </ul>
+                                    <br>
+                                    <br>
+                                    For more information about this service, please contact our Head office directly or contact us online Info@rigelsparkling.com
+                                    <br><br>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-check mr-1"></i>
+                                        Ok Got it !
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
@@ -586,5 +873,11 @@ Indirapuram, Ghaziabad, Uttar Pradesh – 201014<br><br></h3>
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </body>
 </html>
